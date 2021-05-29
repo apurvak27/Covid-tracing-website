@@ -1,0 +1,129 @@
+body {
+    background-color: white;
+}
+
+.leftmenu{
+    height: 100%;
+    width: 20%;
+    z-index: 10;
+    position: fixed;
+    background-color:rgb(173, 185, 202) ;
+    padding-top: 100px;
+}
+.leftmenu a{
+    text-decoration: blue;
+    font-size: 20px;
+    font-family: Arial;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 10%;
+}
+.leftmenu a:hover{
+    background-color: rgb(132, 151, 176);
+}
+
+#heading{
+    padding-top: 8%;
+    margin-left: -10%;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+}
+.watermark_image {
+    position: absolute;
+    z-index: -1;
+    top: 20%;
+    right: 15%;
+    opacity: 0.13;
+    display: block;
+    max-width: 50%;
+}
+
+#website_background {
+    background-color: rgb(173, 185, 202);
+    height:100px;
+    width:100%;
+}
+
+#title {
+    line-height:100px;
+    width:940px;
+    font-size: 40px;
+    font: bold;
+    font-family: Arial;
+    text-align:center;
+}
+
+.left_side{
+    padding-left: 20%;
+}
+
+.Line{
+    border: none;
+    border-bottom: 3px solid black;
+    padding-top: 20%;
+    position: relative;
+    width: 70%;
+}
+
+.description{
+    margin-left: 15%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -42%;
+}
+.instructions{
+    margin-left: 15%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 25%;
+}
+
+form{
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 20%;
+}
+::placeholder{
+    color: black;
+    opacity: 1;
+    text-align: center;
+
+}
+input[type=text],input[type=time], input[type=date],input[type=number],input[type=password] {
+    padding: 10px 150px;
+    text-align: center;
+    margin-bottom: 20%;
+    width: 100%;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font: bold;
+    color: black;
+    background: transparent;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+button{
+    margin: 15px;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: Times New Roman;
+    border: 1px solid black;
+    border-radius: 10px 10px;
+    width: 40%;
+}
+
+.cancelbtn{
+    transform: translateX(90%);
+}
+
+.reportbtn{
+    transform: translateX(-10%);
+}
+

@@ -1,0 +1,91 @@
+#description{
+    transform: translateX(15em);
+    font-size: 20px;
+}
+
+.leftmenu{
+    height: 100%;
+    width: 20%;
+    z-index: 10;
+    position: fixed;
+    background-color:rgb(173, 185, 202) ;
+    padding-top: 100px;
+}
+.leftmenu a{
+    text-decoration: blue;
+    font-size: 20px;
+    font-family: Arial;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 10%;
+}
+.leftmenu a:hover{
+    background-color: rgb(132, 151, 176);
+}
+
+.left_side{
+    padding-left: 20%;
+}
+
+#website_background {
+    background-color: rgb(173, 185, 202);
+    height:100px;
+    width:100%;
+}
+
+#title {
+    line-height:100px;
+    width:940px;
+    font-size: 40px;
+    font: bold;
+    font-family: Arial;
+    text-align:center;
+}
+
+
+.watermark_image {
+    position: absolute;
+    z-index: -1;
+    top: 20%;
+    right: 15%;
+    opacity: 0.13;
+    display: block;
+    max-width: 50%;
+}
+
+.Line{
+    border: none;
+    border-bottom: 3px solid black;
+    padding-top: 20%;
+    position: relative;
+    width: 70%;
+}
+
+.map{
+    width: 500px;
+    height: auto;
+}
+
+#map_display{
+    display: grid;
+    column-gap: 80px;
+    padding: 20px 120px;
+    grid-template-rows: 2fr auto;
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas:
+    "input map"
+    "button map";
+}
+
+#grid_display{
+    grid-area: input;
+}
+
+.instructions{
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    grid-area: button;
+}
+
+

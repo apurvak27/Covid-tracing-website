@@ -1,0 +1,52 @@
+.leftmenu{
+    height: 100%;
+    width: 20%;
+    z-index: 10;
+    position: fixed;
+    background-color:rgb(173, 185, 202) ;
+    padding-top: 100px;
+}
+.leftmenu a{
+    text-decoration: blue;
+    font-size: 20px;
+    font-family: Arial;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 10%;
+}
+.leftmenu a:hover{
+    background-color: rgb(132, 151, 176);
+}
+
+#website_background {
+    background-color: rgb(173, 185, 202);
+    height:100px;
+    width:100%;
+}
+
+#title {
+    line-height:100px;
+    width:940px;
+    font-size: 40px;
+    font: bold;
+    font-family: Arial;
+    text-align:center;
+}
+
+.watermark_image {
+    position: absolute;
+    z-index: -1;
+    top: 20%;
+    right: 15%;
+    opacity: 0.13;
+    display: block;
+    max-width: 50%;
+}
+
+.left_side{
+    padding-left: 20%;
+}
+
+
+

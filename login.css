@@ -1,0 +1,96 @@
+img {
+    position: relative;
+    width:40%;
+    height:40%;
+    top: -95px;
+    opacity:0.25;
+}
+.watermark{
+    transform: translate(30%,30%);
+}
+
+.form {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    top: 50%;
+    left: 50%;
+}
+
+#website_background {
+    background-color: rgb(173, 185, 202);
+    height:100px;
+    width:100%;
+}
+
+#title {
+    line-height:100px;
+    width:940px;
+    font-size: 40px;
+    font: bold;
+    font-family: Arial;
+    text-align:center;
+    transform: translateX(25%);
+
+}
+
+input[type=text], input[type=password] {
+    width: 80%;
+    transform: translateX(10%);
+    position: center;
+    padding: 10px 20px;
+    display: block;
+    border: 1px solid black;
+    background: transparent;
+    font-family: Times New Roman;
+    font-size: 20px;
+    font: bold;
+    color: black;
+    box-sizing: border-box;
+}
+
+::placeholder{
+    color: black;
+    opacity: 1;
+    text-align: center;
+}
+
+button {
+    position: center;
+    margin: 15px;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: Times New Roman;
+    border: 1px solid black;
+    border-radius: 10px 10px;
+    width: 40%;
+}
+
+.loginbtn{
+    transform: translateX(10%);
+}
+
+.cancelbtn{
+    transform: translateX(-5%);
+}
+
+.registerbtn{
+    transform: translateX(5%);
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

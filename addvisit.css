@@ -1,0 +1,156 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: white;
+    overflow-x: hidden;
+}
+img{
+    width: 100%;
+}
+
+.leftmenu{
+    height: 100%;
+    width: 20%;
+    z-index: 10;
+    position: fixed;
+    background-color:rgb(173, 185, 202) ;
+    padding-top: 100px;
+}
+.leftmenu a{
+    text-decoration: blue;
+    font-size: 20px;
+    font-family: Arial;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 10%;
+}
+.leftmenu a:hover{
+    background-color: rgb(132, 151, 176);
+}
+
+#heading{
+    padding-top: 8%;
+    margin-left: -10%;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.watermark_image {
+    position: absolute;
+    z-index: -1;
+    top: 20%;
+    right: 15%;
+    opacity: 0.13;
+    display: block;
+    max-width: 50%;
+}
+
+#website_background {
+    background-color: rgb(173, 185, 202);
+    height:100px;
+    width:100%;
+}
+
+#title {
+    line-height:100px;
+    width:940px;
+    font-size: 40px;
+    font: bold;
+    font-family: Arial;
+    text-align:center;
+}
+
+.left_side{
+    padding-left: 20%;
+}
+
+.Line{
+    border: none;
+    border-bottom: 3px solid black;
+    padding-top: 20%;
+    position: relative;
+    width: 70%;
+}
+
+.map{
+    width: 500px;
+    height: auto;
+}
+
+.description{
+    grid-area: input;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+
+input[type=text],input[type=time], input[type=date],input[type=number],input[type=password] {
+    padding: 10px 0px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font: bold;
+    color: black;
+    background: transparent;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+button{
+    margin: 15px;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: Times New Roman;
+    border: 1px solid black;
+    border-radius: 10px 10px;
+    width: 40%;
+}
+
+::placeholder{
+    color: black;
+    opacity: 1;
+    text-align: center;
+
+}
+#marker {
+    position: absolute;
+    display: flex;
+    z-index: 100;
+    width: 5%;
+    top: 0%;
+    left: 0%;
+}
+
+#map{
+    position: relative;
+    grid-area: map;
+    border: 2px solid black;
+
+}
+
+#grid_display{
+    grid-area: input;
+}
+
+#map_display{
+    display: grid;
+    column-gap: 80px;
+    padding: 20px 120px;
+    grid-template-rows: 2fr auto;
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas:
+    "input map"
+    "button map";
+}
+#deleteit{
+    width: 30px;
+    height: 30px;
+}

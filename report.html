@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <title>COVID - 19 Contact Tracing</title>
+    <link rel="stylesheet" href="report.css">
+<body>
+
+<div class="leftmenu">
+    <a href="home.php">Home</a>
+    <br>
+    <a href="overview.php">Overview</a>
+    <br>
+    <a href="addvisit.php">Add Visit</a>
+    <br>
+    <a href="report.php">Report</a>
+    <br>
+    <a href="settings.php">Settings</a>
+    <br>
+    <a href="index.php">Logout</a>
+</div>
+<div class="left_side">
+    <div id="website_background">
+        <h1 id="title">
+            COVID - 19 Contact Tracing
+        </h1>
+    </div>
+    <p id="heading">Reporting an Infection</p>
+    <img class="watermark_image" src="watermark.png">
+    <hr class="Line">
+    <p class="description">Please report the date and time when you were tested positive for<br>COVID-19</p>
+    <form action="report.php" method="POST">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <input type="date" placeholder="Date" name= "date" required><br>
+        <input type="time" placeholder="Time" name="time" required><br>
+        <button name="reportbtn">Report</button>
+        <button name="cancelbtn">Cancel</button>
+    </form>
+
+</div>
+
+</body>
+
+</html>

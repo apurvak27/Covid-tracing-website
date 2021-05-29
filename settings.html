@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <title>COVID - 19 Contact Tracing</title>
+    <link rel="stylesheet" href="settings.css">
+
+<body>
+<div class="leftmenu">
+    <a href="home.php">Home</a>
+    <br>
+    <a href="overview.php">Overview</a>
+    <br>
+    <a href="addvisit.php">Add Visit</a>
+    <br>
+    <a href="report.php">Report</a>
+    <br>
+    <a href="settings.php">Settings</a>
+    <br>
+    <a href="index.php">Logout</a>
+</div>
+
+<div class="left_side">
+    <div id="website_background">
+        <h1 id="title">COVID - 19 Contact Tracing</h1>
+    </div>
+    <p id="heading">Alert Settings</p>
+    <img class="watermark_image" src="watermark.png">
+    <hr class="Line">
+    <p id="description">Here you may change the alert distance and the time span for which<br> the contact tracing will be performed.</p>
+    <form action="settings.php" method="POST">
+        <br><br><br><br><br><br><br><br><br>
+        <label for="window">Window</label>
+        <select name="window" id="window" >
+            <option value="1" >One Week</option>
+            <option value="2" >Two Weeks</option>
+            <option value="3" >Three Weeks</option>
+            <option value="4">Four Weeks</option>
+        </select>
+        <label for="distance">Distance</label>
+        <input type="number" min="0" max="500" id="distance" name="distance" required><br>
+        <button name = "reportbtn">Report</button>
+        <button name="cancelbtn">Cancel</button>
+    </form>
+
+</div>
+
+</body>
+
+</html>
+
